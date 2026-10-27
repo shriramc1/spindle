@@ -8,6 +8,7 @@ Notable changes to Spindle, following [Keep a Changelog](https://keepachangelog.
 
 - `deepseek_v41_flash_lora_8k` falls back to B200 and H200 for the trainer and samplers.
 - DeepSeek-V4.1-Flash LoRA recipe with 32K context, `deepseek_v41_flash_lora_32k`. It splits each layer across eight GPUs instead of four.
+- `examples/shared-server`: one deployment a team shares, with four recipes, a smoke test, and a workflow that redeploys it from `main`.
 
 ### Changed
 
